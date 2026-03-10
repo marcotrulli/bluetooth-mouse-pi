@@ -1,5 +1,5 @@
 import time
-from src.mpu6050_reader import MPU6050
+from mpu6050_reader import MPU6050
 
 mpu = MPU6050()
 SENS = 5000.0  # Regola la sensibilità
